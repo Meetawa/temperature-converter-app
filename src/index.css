@@ -1,3 +1,35 @@
 body {
   background-color: rgb(37, 73, 69);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.outer-box {
+  border: 3px solid black;
+  background-color: rgb(89, 91, 90);
+  border-radius: 10px;
+  margin: auto;
+  padding: 50px;
+
+  text-align: center;
+}
+.inner-box {
+  border: 3px solid black;
+  background-color: rgb(90, 116, 103);
+
+  border-radius: 10px;
+}
+@media only screen and (max-width: 510px) {
+  .outer-box {
+    margin: 80px;
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 511px) and (max-width: 900px) {
+  .outer-box {
+    margin: 180px;
+    padding: 80px;
+  }
+  .inner-box {
+    padding: 10px;
+  }
 }

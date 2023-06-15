@@ -4,7 +4,7 @@ import { TemperatureInput } from "./TemperatureInput";
 class Calculator extends React.Component {
   render() {
     return (
-      <div>
+      <div className="outer-box">
         <TemperatureInput scale="c" />
         <TemperatureInput scale="f" />
       </div>
