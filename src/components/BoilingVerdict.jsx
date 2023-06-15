@@ -1,6 +1,6 @@
 import React from "react";
 
-const BoilingVerdict = () => {
+const BoilingVerdict = (props) => {
   if (props.celsius >= 100) {
     return <p>The water would boil.</p>;
   }
