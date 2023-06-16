@@ -1,35 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo");
+
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(37, 73, 69);
-  color: rgb(255, 255, 255);
-  text-align: center;
+  background-color: #2e2e2e;
+  font-family: "Arvo", serif;
+  color: white;
 }
-.outer-box {
-  border: 3px solid black;
-  background-color: rgb(89, 91, 90);
-  border-radius: 10px;
-  margin: auto;
-  padding: 50px;
 
+#focusedInputed {
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-weight: 300;
   text-align: center;
+  width: 400px;
 }
-.inner-box {
-  border: 3px solid black;
-  background-color: rgb(90, 116, 103);
+.hot {
+  color: #e60000;
+}
 
-  border-radius: 10px;
+.cold {
+  color: #3399ff;
 }
-@media only screen and (max-width: 510px) {
-  .outer-box {
-    margin: 80px;
-    padding: 50px;
-  }
-}
-@media only screen and (min-width: 511px) and (max-width: 900px) {
-  .outer-box {
-    margin: 180px;
-    padding: 80px;
-  }
-  .inner-box {
-    padding: 10px;
-  }
+
+.normal {
+  color: #ff9933;
 }
