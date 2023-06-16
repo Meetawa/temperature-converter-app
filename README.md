@@ -1,6 +1,7 @@
 # DEMO :
 
-![Alt text](image.png)
+- Our App looks like :
+  ![Alt text](./public/photos/Firstlook.png)
 
 ---
 
